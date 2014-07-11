@@ -1,0 +1,14 @@
+a {
+	color: $linkcolour;
+
+	&:hover {
+		color: $linkhover;
+		border-bottom: 1px solid tint($linkhover, 80);
+	}
+}
+button {
+	background-color: $linkcolour;
+	&:hover {
+		background-color: $linkhover;
+	} 
+}

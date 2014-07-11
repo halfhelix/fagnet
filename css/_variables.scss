@@ -1,0 +1,33 @@
+// My Variables
+
+// Pads
+
+$max-site-width: em(1050);
+
+$pad-wee: 		0.25em;
+$pad-tiny: 		0.5em;
+$pad-small:		0.75em;
+$pad: 			1em;
+$pad-med: 		2em;
+$pad-large: 	3em;
+$pad-huge: 		4em;
+
+$pad-section: 	10px;
+$pad-large-screen: 	70px;
+
+$small-font: 	0.85em;
+
+// Colours 
+
+$body:			rgb(90,90,90);
+$grey0:			rgb(125,125,125);
+$grey1:			rgb(160,160,160);
+$grey2:			rgb(190,190,190);
+$grey3:			rgb(220,220,220);
+$grey4:			rgb(240,240,240);
+$grey5:			rgb(250,250,250);
+
+$red:			rgb(238,46,36);
+
+$linkcolour:    $red;
+$linkhover:		shade($linkcolour, 15);
