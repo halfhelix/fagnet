@@ -36,3 +36,16 @@
   @extend %flash-base;
   @include flash($success-color);
 }
+
+.success {
+  @extend %flash-success;
+}
+.error {
+  @extend %flash-error;
+}
+.notice {
+  @extend %flash-notice;
+}
+.alert {
+  @extend %flash-alert;
+}
