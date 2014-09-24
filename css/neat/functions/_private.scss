@@ -3,16 +3,20 @@
   @return $int % 2 == 0
 }
 
-// Checks if an element belongs to a list
+// Checks if an element belongs to a list or not
 @function belongs-to($tested-item, $list) {
-  @return index($list, $tested-item) != false;
+  @return not not-belongs-to($tested-item, $list);
+}
+
+@function not-belongs-to($tested-item, $list) {
+  @return not index($list, $tested-item);
 }
 
 // Contains display value
 @function contains-display-value($query) {
-  @return belongs-to(table, $query) 
-       or belongs-to(block, $query) 
-       or belongs-to(inline-block, $query) 
+  @return belongs-to(table, $query)
+       or belongs-to(block, $query)
+       or belongs-to(inline-block, $query)
        or belongs-to(inline, $query);
 }
 
@@ -81,7 +85,7 @@
 // Layout direction
 @function get-direction($layout, $default) {
   $direction: nil;
-  
+
   @if $layout == LTR or $layout == RTL {
     $direction: direction-from-layout($layout);
   } @else {
