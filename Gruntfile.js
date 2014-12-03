@@ -70,6 +70,25 @@ module.exports = function(grunt) {
                 }
             }
         },
+        svgmin: {
+            options: {
+                plugins: [{
+                    removeViewBox: false
+                }, {
+                    removeUselessStrokeAndFill: false
+                }]
+            },
+            dist: {
+                files: [{
+                    expand: true, // Enable dynamic expansion.
+                    cwd: 'img/svg', // Src matches are relative to this path.
+                    src: ['**/*.svg'], // Actual pattern(s) to match.
+                    dest: 'img', // Destination path prefix.
+                    ext: '.min.svg' // Dest filepaths will have this extension.
+                }]
+            }
+        },
+
         open: {
             all: {
                 path: 'http://localhost:<%= connect.all.options.port%>'
@@ -101,6 +120,13 @@ module.exports = function(grunt) {
                 options: {
                     livereload: true
                 },
+            },
+            svg: {
+                files: 'img/svg/*.svg',
+                tasks: 'svgmin',
+                options: {
+                    livereload: true
+                }
             }
         },
 
@@ -115,6 +141,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-open');
+    grunt.loadNpmTasks('grunt-svgmin');
 
     grunt.loadNpmTasks('grunt-contrib-connect');
 
