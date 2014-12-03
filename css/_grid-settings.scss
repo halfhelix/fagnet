@@ -3,6 +3,7 @@ $column: 90px;
 $gutter: 30px;
 $grid-columns: 12;
 
+$max-site-width: em(1300);
 
 $medium-screen: em(640);
 $large-screen: em(860);
@@ -30,7 +31,7 @@ $tablet-down: new-breakpoint(max-width $tablet-width 8);
 $tablet-up: new-breakpoint(min-width $tablet-width);
 $tablet-desktop: new-breakpoint(min-width $mobile-width max-width $desktop-width);
 $desktop: new-breakpoint(min-width $desktop-width max-width $large-screen-width);
-$desktop-up: new-breakpoint(min-width $desktop-width);
+$desktop-up: new-breakpoint(min-width $desktop-width 12);
 $desktop-down: new-breakpoint(max-width $desktop-width);
 $large-screen: new-breakpoint(min-width $large-screen-width);
 $large-screen-down: new-breakpoint(max-width $large-screen-width);
