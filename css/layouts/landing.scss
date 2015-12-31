@@ -1,14 +1,17 @@
-::selection {
-	background-color: #000;
-	color: #fff;
-}
+
 
 body {
 	&.comingsoon {
 		background-color: #FFB6C1;
 		overflow: hidden;
 	}	
+	::selection {
+		background-color: #000;
+		color: #fff;
+	}	
 }
+
+
 
 .wrapper {
 	@include row();
@@ -27,9 +30,9 @@ body {
 			font-size: 5em;
 			font-family: 'apercubold';
 			margin: 0 0 .2em 0;
-			@include media($mobile) {
-      		font-size: 4em;
-    		}
+			@include media($tablet-down) {
+      	font-size: 4em;
+    	}
 		}
 		.bio {
 			padding: 0 0 2em 0;
@@ -40,13 +43,14 @@ body {
 }
 
 .mailchimp {
+
 	::-webkit-input-placeholder {
 		color: #000;
 		font-family: 'apercumono';
 		font-size: 1.1em;
 	}
 
-	input[type='text'] {
+	input[type='email'] {
 		@include span-columns(8);
 		@include shift(2);
 		border: 5px solid #000;

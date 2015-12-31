@@ -2276,16 +2276,15 @@ button {
   src: url("/fonts/apercu-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/apercu-bold-webfont.woff2") format("woff2"), url("/fonts/apercu-bold-webfont.woff") format("woff"), url("/fonts/apercu-bold-webfont.ttf") format("truetype"), url("/fonts/apercu-bold-webfont.svg#apercubold") format("svg");
   font-weight: normal;
   font-style: normal; }
-::-moz-selection {
-  background-color: #000;
-  color: #fff; }
-::selection {
-  background-color: #000;
-  color: #fff; }
-
 body.comingsoon {
   background-color: #FFB6C1;
   overflow: hidden; }
+body ::-moz-selection {
+  background-color: #000;
+  color: #fff; }
+body ::selection {
+  background-color: #000;
+  color: #fff; }
 
 .wrapper {
   display: block;
@@ -2313,7 +2312,7 @@ body.comingsoon {
       font-size: 5em;
       font-family: 'apercubold';
       margin: 0 0 .2em 0; }
-      @media screen and (max-width: 30em) {
+      @media screen and (max-width: 48em) {
         .wrapper .text .logo {
           font-size: 4em; } }
     .wrapper .text .bio {
@@ -2325,7 +2324,7 @@ body.comingsoon {
   color: #000;
   font-family: 'apercumono';
   font-size: 1.1em; }
-.mailchimp input[type='text'] {
+.mailchimp input[type='email'] {
   float: left;
   display: block;
   margin-right: 2.12766%;
@@ -2337,10 +2336,10 @@ body.comingsoon {
   font-size: 1.1em;
   font-family: inherit;
   height: 3em; }
-  .mailchimp input[type='text']:last-child {
+  .mailchimp input[type='email']:last-child {
     margin-right: 0; }
   @media screen and (max-width: 48em) {
-    .mailchimp input[type='text'] {
+    .mailchimp input[type='email'] {
       float: left;
       display: block;
       margin-right: 2.12766%;
@@ -2348,7 +2347,7 @@ body.comingsoon {
       margin-left: 0%;
       height: 4em;
       font-size: 1em; }
-      .mailchimp input[type='text']:last-child {
+      .mailchimp input[type='email']:last-child {
         margin-right: 0; } }
 .mailchimp input[type='submit'] {
   float: left;

@@ -30,16 +30,31 @@
                     <h3 class="bio">Some short text about FAGNET and a call to action to sign up for the launch annoucnement</h3>
                 </div>
             
-                <form action="mailchimp" method="post" class="mailchimp">
-                    <input type="text" placeholder="Enter Email">
-                    <input type="submit" value="Sign Up">
+                <!-- mailchimp form -->
+                <form action="//fagnet.us12.list-manage.com/subscribe/post?u=4f81a4f7bfe85562be3dd337f&amp;id=d460e3b8fc" method="post" class="mailchimp validate" id="mc-form" target="_blank" novalidate>
+                    <input type="email" name="EMAIL" placeholder="Enter Email" class="email required" autocomplete="off">
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+
+                    <input class="sumbit" type="submit" name="subscribe" value="Sign Up">
                 </form>
+                
+                <!-- sucsess message -->
+                <div class="sucsess text">
+                    <h3 class="bio">Thx. We sent you an email. Make sure to confirm your subscription.</h3>
+                </div>
             </div>
         </div>
+
+
+
         
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery.ajaxchimp.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
