@@ -34,16 +34,19 @@ body {
       	font-size: 4em;
     	}
 		}
-		.bio {
-			padding: 0 0 2em 0;
+
+		h3 {
 			font-family: inherit;
 			font-size: 1.3em;
+		}
+
+		.bio {
+			margin: 0 0 2em 0;
 		}
 	}
 }
 
 .mailchimp {
-
 	::-webkit-input-placeholder {
 		color: #000;
 		font-family: 'apercumono';
@@ -89,4 +92,11 @@ body {
       	font-size: 1em;
     	}
 	}
+}
+
+.sucsess {
+	visibility: hidden;
+	background: white;
+	border: 5px solid black;
+  padding: 15px 10px;
 }

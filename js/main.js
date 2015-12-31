@@ -5,10 +5,10 @@ $( document ).ready(function() {
 		// some callbacks should go here!
 	});
 
-	$('.sucsess').hide();
+	// show / hide on sumbit
 	$('.mailchimp').click(function() {
 		$('#mc-form').hide();
-		$('.sucsess').fadeIn();
+		$('.sucsess').css('visibility','visible').hide().fadeIn('slow');
 	});
    
 });

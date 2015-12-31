@@ -2315,10 +2315,11 @@ body ::selection {
       @media screen and (max-width: 48em) {
         .wrapper .text .logo {
           font-size: 4em; } }
-    .wrapper .text .bio {
-      padding: 0 0 2em 0;
+    .wrapper .text h3 {
       font-family: inherit;
       font-size: 1.3em; }
+    .wrapper .text .bio {
+      margin: 0 0 2em 0; }
 
 .mailchimp ::-webkit-input-placeholder {
   color: #000;
@@ -2379,3 +2380,9 @@ body ::selection {
       font-size: 1em; }
       .mailchimp input[type='submit']:last-child {
         margin-right: 0; } }
+
+.sucsess {
+  visibility: hidden;
+  background: white;
+  border: 5px solid black;
+  padding: 15px 10px; }
