@@ -152,5 +152,5 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask('default', ['sass', 'autoprefixer']);
-    grunt.registerTask('server', ['open', 'connect', 'watch']);
+    grunt.registerTask('server', ['open', 'connect', 'watch', 'sass']);
 };

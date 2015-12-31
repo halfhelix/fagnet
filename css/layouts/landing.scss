@@ -1,0 +1,51 @@
+::selection {
+	background-color: #000;
+	color: #fff;
+}
+
+.comingsoon {
+	background-color: pink;
+}
+
+.center {
+	margin-top: 50vh;
+	transform: translateY(-50%);
+}
+
+.content {
+	text-align: center;
+}
+
+.logo {
+	font-size: 5em;
+}
+
+.bio {
+	padding: 0 0 2em 0;
+}
+
+
+.mailchimp {
+
+	input[type='text'] {
+		border: 5px solid #000;
+		color: #000;
+		height: 4em;
+		width: 45em;
+		margin: 0 auto 1.5em auto;
+		
+		&:-moz-placeholder {
+			color: #000;
+		}
+	}
+		
+	input[type='submit'] {
+		border: 5px solid #000;
+		background-color: #fff;
+		color: #000;
+		margin: 0 auto;
+		height: 4em;
+		display: block;
+		width: 10em;
+	}
+}
