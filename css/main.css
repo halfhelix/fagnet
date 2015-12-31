@@ -2323,7 +2323,7 @@ body ::selection {
           font-size: 4em; } }
     .wrapper .text h3 {
       font-family: inherit;
-      font-size: 1.3em; }
+      font-size: 1.1rem; }
     .wrapper .text .bio {
       margin: 0 0 2em 0; }
 
@@ -2340,7 +2340,7 @@ body ::selection {
   border: 5px solid #000;
   border-radius: 0px;
   color: #000;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-family: inherit;
   height: 3em; }
   .mailchimp input[type='email']:last-child {
@@ -2368,7 +2368,7 @@ body ::selection {
   color: #000;
   height: 3em;
   font-family: inherit;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   margin-bottom: 1em; }
   .mailchimp input[type='submit']:last-child {
     margin-right: 0; }
