@@ -2368,7 +2368,8 @@ body ::selection {
   color: #000;
   height: 3em;
   font-family: inherit;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  margin-bottom: 1em; }
   .mailchimp input[type='submit']:last-child {
     margin-right: 0; }
   .mailchimp input[type='submit']:hover {
@@ -2386,6 +2387,11 @@ body ::selection {
       font-size: 1em; }
       .mailchimp input[type='submit']:last-child {
         margin-right: 0; } }
+.mailchimp .mce-responses {
+  display: block; }
+.mailchimp .mc-response {
+  display: block;
+  float: right; }
 
 .sucsess {
   visibility: hidden;

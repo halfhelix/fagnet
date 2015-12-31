@@ -1,17 +1,20 @@
 $( document ).ready(function() {
 
 	// mailchimp form submission
-	$('#mc-form').ajaxChimp({
-		// some callbacks should go here!
+	$("#mc-form").formchimp({
+		// sucesss
+		// error
 	});
 
-	// show / hide on sumbit
-	$('.mailchimp').click(function() {
+	//show hide on sucsess
+	$( document ).on( 'mailChimpSuccess', function() {
 		$('#mc-form').hide();
 		$('.sucsess').css('visibility','visible').hide().fadeIn('slow');
 	});
-   
+	   
 });
+
+
 
 
 
