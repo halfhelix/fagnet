@@ -12,10 +12,12 @@
 @import "variables"; 
 
 // Site styling
-@import "layouts";
 @import "typography"; 
+@import "layouts";
 
+//fonts
 @import "font-awesome";
+@import "fonts";
 
 //custom stytles
 @import "layouts/landing"

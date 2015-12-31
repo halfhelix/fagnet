@@ -587,10 +587,6 @@ input[type="submit"] {
   white-space: nowrap; }
 
 /* Beveled borders */
-.container {
-  max-width: 65.625em;
-  margin: auto; }
-
 a {
   color: #0050a0; }
   a:hover {
@@ -601,6 +597,10 @@ button {
   background-color: #0050a0; }
   button:hover {
     background-color: #004488; }
+
+.container {
+  max-width: 65.625em;
+  margin: auto; }
 
 /*!
  *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -2264,16 +2264,28 @@ button {
 .fa-meanpath:before {
   content: ""; }
 
+@font-face {
+  font-family: 'apercumono';
+  src: url("/fonts/apercu-mono-webfont.eot");
+  src: url("/fonts/apercu-mono-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/apercu-mono-webfont.woff2") format("woff2"), url("/fonts/apercu-mono-webfont.woff") format("woff"), url("/fonts/apercu-mono-webfont.ttf") format("truetype"), url("/fonts/apercu-mono-webfont.svg#apercumono") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'apercubold';
+  src: url("/fonts/apercu-bold-webfont.eot");
+  src: url("/fonts/apercu-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/apercu-bold-webfont.woff2") format("woff2"), url("/fonts/apercu-bold-webfont.woff") format("woff"), url("/fonts/apercu-bold-webfont.ttf") format("truetype"), url("/fonts/apercu-bold-webfont.svg#apercubold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 ::-moz-selection {
   background-color: #000;
   color: #fff; }
-
 ::selection {
   background-color: #000;
   color: #fff; }
 
 .comingsoon {
-  background-color: pink; }
+  background-color: #FFB6C1;
+  font-family: 'apercumono'; }
 
 .center {
   margin-top: 50vh;
@@ -2285,19 +2297,23 @@ button {
   text-align: center; }
 
 .logo {
-  font-size: 5em; }
+  font-size: 6.3em;
+  font-family: 'apercubold'; }
 
 .bio {
-  padding: 0 0 2em 0; }
+  padding: 0 0 2em 0;
+  font-family: 'apercumono'; }
 
 .mailchimp input[type='text'] {
   border: 5px solid #000;
   color: #000;
   height: 4em;
   width: 45em;
-  margin: 0 auto 1.5em auto; }
+  margin: 0 auto 1.5em auto;
+  border-radius: 0px; }
   .mailchimp input[type='text']:-moz-placeholder {
-    color: #000; }
+    color: #000;
+    font-family: 'apercumono'; }
 .mailchimp input[type='submit'] {
   border: 5px solid #000;
   background-color: #fff;
@@ -2305,4 +2321,10 @@ button {
   margin: 0 auto;
   height: 4em;
   display: block;
-  width: 10em; }
+  width: 10em;
+  border-radius: 0px;
+  font-family: 'apercumono'; }
+  .mailchimp input[type='submit']:hover {
+    background: #000;
+    color: #fff;
+    transition: .2s; }
