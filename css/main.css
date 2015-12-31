@@ -2313,17 +2313,19 @@ body.comingsoon {
   .wrapper.center {
     margin-top: 50vh;
     transform: translateY(-50%); }
-  .wrapper .logo {
-    font-size: 5em;
-    font-family: 'apercubold';
-    margin: 0 0 .2em 0; }
-    @media screen and (max-width: 30em) {
-      .wrapper .logo {
-        font-size: 4em; } }
-  .wrapper .bio {
-    padding: 0 0 2em 0;
-    font-family: inherit;
-    font-size: 1.3em; }
+  .wrapper .text {
+    color: #000; }
+    .wrapper .text .logo {
+      font-size: 5em;
+      font-family: 'apercubold';
+      margin: 0 0 .2em 0; }
+      @media screen and (max-width: 30em) {
+        .wrapper .text .logo {
+          font-size: 4em; } }
+    .wrapper .text .bio {
+      padding: 0 0 2em 0;
+      font-family: inherit;
+      font-size: 1.3em; }
 
 .mailchimp ::-webkit-input-placeholder {
   color: #000;
