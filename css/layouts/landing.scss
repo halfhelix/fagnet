@@ -11,8 +11,6 @@ body {
 	}	
 }
 
-
-
 .wrapper {
 	@include row();
 	@include span-columns(8);
@@ -31,7 +29,7 @@ body {
 			font-family: 'apercubold';
 			margin: 0 0 .2em 0;
 			@include media($tablet-down) {
-      	font-size: 4em;
+      	font-size: 3em;
     	}
 		}
 

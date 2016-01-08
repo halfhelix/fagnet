@@ -2320,7 +2320,7 @@ body ::selection {
       margin: 0 0 .2em 0; }
       @media screen and (max-width: 48em) {
         .wrapper .text .logo {
-          font-size: 4em; } }
+          font-size: 3em; } }
     .wrapper .text h3 {
       font-family: inherit;
       font-size: 1.1rem; }
