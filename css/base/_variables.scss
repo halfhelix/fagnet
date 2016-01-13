@@ -38,13 +38,13 @@ $base-accent-color: $blue;
 
 // Link Colors
 $base-link-color: $black;
-$hover-link-color: darken($base-accent-color, 15);
-$base-button-color: $base-link-color;
+$hover-link-color: $base-link-color;
+$base-button-color: $black;
 $hover-button-color: $hover-link-color;
 
 // Border color
 $base-border-color: $black;
-$base-border: 3px solid $base-border-color;
+$base-border: 4px solid $base-border-color;
 
 // Forms
 $form-border-color: $base-border-color;

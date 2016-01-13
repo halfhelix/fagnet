@@ -3,10 +3,21 @@
 	float: left;
 	min-height: 100vh;
 	position: fixed;
+	
+	@include media($tablet-down) {
+		width: 100%;
+		position: static;
+	}
+	
 }
 
 .l-right {
 	width: 50%;
 	float: right;
 	min-height: 100vh;
+	background-color: $black;
+	
+	@include media($tablet-down) {
+		width: 100%;
+	}
 }
