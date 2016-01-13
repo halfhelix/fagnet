@@ -9,8 +9,18 @@
 	justify-content: center;
 	flex-direction: column;
 	
+	&__wrapper {
+		padding: 0 1em;
+	}
+	
 	&__title {		
 		font-size: em(60);
+		@include media($desktop-down) {
+			font-size: $h1-font-size / 1;
+		}
+		@include media($mobile) {
+			font-size: $h1-font-size / 1.1;
+		}
 	}
 
 	&__tagline {

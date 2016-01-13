@@ -8,43 +8,37 @@
 	@include clearfix;
 	@extend .topbar-control;
 	height: 5em;
-	position: fixed;
-	width: 50%;
-	
-	@include media($tablet-down) {
-		width: 100%;
-		height: auto;
-	}
+	display: flex;
+	justify-content: flex-start;
 	
 	.logo {
 		@extend .topbar-control;
-		display: inline;
-		float: left;
+		width: 150px;
 		padding: .5em;
 		margin: 1em;
 		letter-spacing: .3em;
+		text-align: center;
 		
 		@include media($mobile) {
-			float: none;
-			display: block;
-			text-align: center;
+			display: flex;
+			justify-content: flex-start;
 		}
 	}
 
 	.topbar-nav {
-		float: right;
-		margin: 1.6em .5em .5em 0;
+		height: 100%;
 		
 		@include media($mobile) {
 			float: none;
-			display: flex;
-			justify-content: space-around;
+			padding: 0 0 .5em 0;
 		}
 		
 		&__item {
 			@extend .topbar-control;
 			display: inline;
-			padding: .5em .7em;
+			height: 100%;
+			padding: .5em;
+			margin: 1em .5em;
 		}
 }
 
