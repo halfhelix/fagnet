@@ -4,20 +4,11 @@
 	&__wrapper {
 		border: $base-border;
 		border-left: none;
-		background-image: url('/img/city.png');
+		background-image: url('../img/city.png');
 		background-size: cover;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		
-		//adding border to make perfect grid
-		&:nth-last-of-type(-n+2) {
-			border-bottom: $base-border;
-		}
-		
-		@include media($large-screen-down) {
-			border-bottom: none;
-		}
 
 	}
 
