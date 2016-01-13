@@ -1,0 +1,32 @@
+.topbar-control {
+	border: $base-border;
+	background-color: $white;
+	font-size: 1em;
+}
+
+.topbar {
+	@include clearfix;
+	@extend .topbar-control;
+	// height: 5em;
+	
+	.logo {
+		@extend .topbar-control;
+		display: inline;
+		float: left;
+		padding: .5em;
+		margin: 1em;
+		letter-spacing: .3em;
+	}
+}
+
+.topbar-nav {
+	float: right;
+	margin: 1.6em .5em .5em 0;
+	
+	&__item {
+		@extend .topbar-control;
+		display: inline;
+		padding: .5em .7em;
+	}
+
+}

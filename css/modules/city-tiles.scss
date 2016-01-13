@@ -1,0 +1,24 @@
+.cities-index {
+	width: 100%;
+	
+	&__wrapper {
+		width: 50%;
+		border: $base-border;
+		border-left: none;
+		height: 500px;
+		float: left;
+	}
+
+	&__image {
+		width: 30em;
+		height: 30em;
+		-o-object-fit: cover;
+    object-fit: cover;
+	}
+
+	&__title {
+
+	}
+
+
+}

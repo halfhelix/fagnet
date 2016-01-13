@@ -20,4 +20,10 @@
 @import "fonts";
 
 //custom stytles
-@import "layouts/landing"
+@import "layouts/landing";
+@import "layouts/split";
+
+// module styles
+@import "modules/header.scss";
+@import "modules/banner.scss";
+@import "modules/city-tiles.scss";

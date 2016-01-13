@@ -1,0 +1,19 @@
+.banner {
+	border-left: $base-border;
+	border-right: $base-border;
+	border-bottom: $base-border;
+	min-height: calc(100vh - 80px);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	&__title {		
+		font-size: em(60);
+	}
+
+	&__tagline {
+		padding: 2em 0 0 0;
+	}
+}
