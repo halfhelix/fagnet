@@ -1,0 +1,16 @@
+.map__canvas {
+    height: 85vh;
+    border: $border;
+}
+
+#map {
+    a {
+        img {
+            display: none;
+        }
+    }
+
+    .gm-style-cc {
+        display: none;
+    }
+}

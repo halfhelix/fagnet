@@ -1,0 +1,21 @@
+.sign-up-form {
+    @extend .not-full-border;
+
+    text-align: center;
+    padding-top: 55px;
+    padding-right: 20px;
+    padding-bottom: 66px;
+    padding-left: 20px;
+
+    div {
+        margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+        width: 456px;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+}

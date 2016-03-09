@@ -1,0 +1,18 @@
+.city-description {
+    font-size: 25px;
+    letter-spacing: 2.8px;
+
+    @extend .not-full-border;
+
+    padding: 45px 20px;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    .description {
+        max-width: 570px;
+        margin: 0 auto;
+    }
+}

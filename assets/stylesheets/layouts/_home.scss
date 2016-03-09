@@ -1,0 +1,27 @@
+.home {
+    padding: 0;
+
+    .main-header {
+        border: none;
+    }
+
+    h1 {
+        text-transform: none;
+    }
+
+    .l-left {
+        left: 0;
+        width: 50%;
+        min-height: 100vh;
+        position: fixed;
+        border: $border;
+        box-sizing: border-box;
+    }
+
+    .l-right {
+        width: 50%;
+        min-height: 100vh;
+        background-color: #000;
+        float: right;
+    }
+}

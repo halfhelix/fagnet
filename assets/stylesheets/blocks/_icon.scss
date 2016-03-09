@@ -1,0 +1,21 @@
+.icon {
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-repeat: no-repeat;
+    }
+
+    &__planet {
+        &::before {
+            background-image: url("../images/planet.jpg");
+        }
+    }
+
+    &__marker {
+        &::before {
+            background-image: url("../images/marker.jpg");
+        }
+    }
+}

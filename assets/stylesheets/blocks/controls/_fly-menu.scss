@@ -1,0 +1,15 @@
+.fly-menu {
+    width: 100%;
+
+    li {
+        width: 50%;
+
+        a {
+            padding: 0 23px;
+        }
+    }
+}
+
+.menu-item--active {
+    background-color: #fff;
+}

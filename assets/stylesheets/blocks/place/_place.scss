@@ -1,0 +1,13 @@
+.place {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: $border;
+
+    .empty-block {
+        position: absolute;
+        right: 32px;
+        top: 24px;
+    }
+}

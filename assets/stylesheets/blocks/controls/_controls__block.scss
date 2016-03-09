@@ -1,0 +1,29 @@
+.controls__block {
+    display: flex;
+    border-right: $border;
+    list-style-type: none;
+
+    &:last-child {
+        border-right: none;
+    }
+
+    li {
+        border-right: $border;
+
+        &:last-child {
+            border-right: none;
+        }
+
+        a {
+            display: block;
+            font-size: rem(20);
+            text-decoration: none;
+            line-height: rem(80);
+
+            .empty-block {
+                display: inline-block;
+                margin-right: 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.small-map__legend {
+    @extend .not-full-border;
+
+    padding: 42px 32px;
+    background-color: #FFF;
+
+    li {
+        margin-bottom: 27px;
+        padding-left: 50px;
+
+        &.icon {
+            &::before {
+                float: left;
+                margin-left: -50px;
+            }
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            font-size: rem(22.4);
+            line-height: 1.2;
+            text-decoration: none;
+            letter-spacing: rem(2.2);
+        }
+    }
+}

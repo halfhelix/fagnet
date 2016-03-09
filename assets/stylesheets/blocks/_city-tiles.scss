@@ -1,0 +1,9 @@
+.cities-tiles {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__title {
+        font-family: 'apercumono';
+        font-size: rem(25);
+    }
+}

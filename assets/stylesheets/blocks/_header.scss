@@ -1,0 +1,14 @@
+header.main-header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    min-height: 93px;
+    padding: 0 30px;
+    border: $border;
+    background-color: #fff;
+
+    .empty-block {
+        display: inline-block;
+        margin-left: 9px;
+    }
+}

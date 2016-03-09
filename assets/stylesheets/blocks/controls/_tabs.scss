@@ -1,0 +1,15 @@
+.tabs {
+    text-align: center;
+
+    li {
+        width: 180px;
+
+        a {
+            text-transform: uppercase;
+        }
+    }
+}
+
+.tab--active {
+    background-color: #fff;
+}

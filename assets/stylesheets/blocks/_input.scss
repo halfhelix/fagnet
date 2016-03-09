@@ -1,0 +1,36 @@
+input {
+    display: block;
+    margin: 0 auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: $border;
+    background-color: #fff;
+    font-size: 18px;
+    text-align: center;
+
+    //line-height: 46px;
+    min-height: 58px;
+    box-sizing: border-box;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::-webkit-input-placeholder {
+        color: #000;
+    }
+
+    &::-moz-placeholder {
+        color: #000;
+    }
+
+    /* Firefox 19+ */
+    &:-moz-placeholder {
+        color: #000;
+    }
+
+    /* Firefox 18- */
+    &:-ms-input-placeholder {
+        color: #000;
+    }
+}

@@ -1,0 +1,14 @@
+.piple-list {
+    min-height: 200px;
+    border: $border;
+    background-color: #fff;
+    margin-top: 36px;
+
+    &__caption {
+        padding-left: 32px;
+        border-bottom: $border;
+        font-size: rem(20);
+        line-height: 50px;
+        letter-spacing: rem(2);
+    }
+}

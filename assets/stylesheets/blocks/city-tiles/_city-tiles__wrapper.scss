@@ -1,0 +1,14 @@
+.city-tiles__wrapper {
+    width: 50%;
+    height: 25vw;
+    border: $border;
+    border-bottom: none;
+    border-left: none;
+    background-image: url("../images/city.png");
+    background-size: cover;
+    box-sizing: border-box;
+
+    &:nth-last-child(2), &:nth-last-child(1) {
+        border-bottom: $border;
+    }
+}

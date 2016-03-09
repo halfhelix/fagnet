@@ -1,0 +1,8 @@
+.city-tiles {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__title {
+        font-size: rem(25);
+    }
+}

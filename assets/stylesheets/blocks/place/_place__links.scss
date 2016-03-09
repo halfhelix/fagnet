@@ -1,0 +1,21 @@
+.place__links {
+    display: flex;
+    width: 100%;
+    border-top: $border;
+
+    a {
+        display: block;
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-left: $border;
+        line-height: 1.9;
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: 1.4px;
+
+        &:first-child {
+            border: none;
+        }
+    }
+}

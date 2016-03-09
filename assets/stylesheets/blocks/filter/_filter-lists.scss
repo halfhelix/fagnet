@@ -1,0 +1,29 @@
+.filter-lists {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    padding: 0 5%;
+
+    .filter-lists__item {
+        width: 30%;
+        text-align: center;
+
+        h4 {
+            margin-top: 0;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
+
+        li {
+            display: block;
+            padding: 25px 0;
+            font-size: rem(18);
+            letter-spacing: rem(1px);
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}

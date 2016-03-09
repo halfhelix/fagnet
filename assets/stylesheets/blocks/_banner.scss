@@ -1,0 +1,29 @@
+.banner {
+    border-top: $border;
+    text-align: center;
+    box-sizing: border-box;
+
+    &__title {
+        margin-top: 175px;
+        font-size: rem(60);
+    }
+
+    &__tagline {
+        font-size: rem(18);
+    }
+
+    &__bottom {
+        margin-top: 240px;
+        font-size: rem(12);
+    }
+
+    @media (max-height: 800px) {
+        &__title {
+            margin-top: 80px;
+        }
+
+        &__bottom {
+            margin-top: 100px;
+        }
+    }
+}
