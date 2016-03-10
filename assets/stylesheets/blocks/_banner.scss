@@ -13,7 +13,9 @@
     }
 
     &__bottom {
-        margin-top: 240px;
+        position: absolute;
+        bottom: 40px;
+        width: 100%;
         font-size: rem(12);
     }
 

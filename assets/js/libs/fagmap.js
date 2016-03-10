@@ -1,3 +1,5 @@
+"use strict";
+
 function initMap(mapId, markerIconURL) {
     if ($('#' + mapId).length > 0) {
         window.fagMap = {};
@@ -127,7 +129,7 @@ function initMap(mapId, markerIconURL) {
             "stylers": [{
                 "color": "#dadada"
             }]
-        }]
+        }];
 
 
         fagMap.mapSettings = {
@@ -139,7 +141,8 @@ function initMap(mapId, markerIconURL) {
             disableDefaultUI: true,
             styles: fagMap.themes.lightGray,
             markerIcon: markerIconURL,
-            googleLogoDisable: true
+            googleLogoDisable: true,
+            zoomControl: true
         };
 
 
@@ -150,7 +153,7 @@ function initMap(mapId, markerIconURL) {
                 lat: +cords[0],
                 lng: +cords[1]
             };
-        }
+        };
 
         fagMap.initMapData = function() {
             var $dataMap = $('.data-map')[0],
@@ -189,9 +192,9 @@ function initMap(mapId, markerIconURL) {
 
         fagMap.setMarkers = function() {
             //console.log(fagMap.markers);
-            for (i = 0; i < fagMap.markers.length; i++) {
+            for (var i = 0; i < fagMap.markers.length; i++) {
 
-                var marker, infobox, tmp;
+                var marker, box, tmp;
 
                 marker = fagMap.addMarker(fagMap.markers[i].position);
 
