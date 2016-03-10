@@ -3,11 +3,12 @@
 
     display: flex;
     align-items: flex-start;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 100px;
 
     &__map {
         width: 50%;
+        padding-top: 20px;
         padding-right: 16px;
         padding-left: 45px;
         box-sizing: border-box;
@@ -15,6 +16,7 @@
 
     &__posts {
         width: 50%;
+        margin-top: 20px;
         padding-right: 45px;
         padding-left: 16px;
         box-sizing: border-box;

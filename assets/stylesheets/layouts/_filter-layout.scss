@@ -1,3 +1,14 @@
 .filter-layout {
+    position: absolute;
+    z-index: 900;
     border: $border;
+    top: 3.5vh;
+    right: 3vw;
+    bottom: 3.5vh;
+    left: 3vw;
+    background-color: $bgColor;
+
+    &--hidden {
+        display: none;
+    }
 }

@@ -1,13 +1,17 @@
 .fly-menu-content {
     @extend .not-full-border;
 
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     padding: 10px 0;
     background-color: #fff;
     list-style: none;
     font-size: rem(20);
     letter-spacing: rem(2);
+
+    &--active {
+        display: flex;
+    }
 
     li {
         width: 20%;
